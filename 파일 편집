@@ -1,0 +1,18 @@
+열기: C-x C-f
+저장: C-x C-s
+찾기: C-s <keyword>
+복사: M-w
+잘라내기: C-w
+붙여넣기: C-y (이후 M-y 반복하여 kill-ring 순환)
+실행취소(undo): C-- 또는 C-/
+  * redo: 실행취소 하다가 다른 동작 후 실행취소
+세로줄 삽입: C-x r t (M-x string-rectangle)
+세로줄 삭제: C-x r k (M-x kill-rectangle)
+입력 언어 전환: C-\
+  * 한글은 korean-hangul
+찾아 바꾸기: M-% <keyword> RET <replace> RET
+command shell 명령 수행 결과 입력: C-u M-!
+파일 맨 처음: M-<
+파일 맨 끝: M->
+page up: M-v
+page down: C-v
